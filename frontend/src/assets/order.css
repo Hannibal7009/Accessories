@@ -1,0 +1,145 @@
+body,
+html {
+    width: 100%;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+header .logo {
+    width: 10%;
+}
+
+header .cart {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+header .cart img {
+    width: 15%
+}
+
+.info {
+    width: 95%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    width: 100%;
+    background-color: #ffba00;
+    padding: .5% 0 .5% 0;
+}
+
+.shipment {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.shipment p {
+    font-size: 1.25vw;
+}
+
+.shipment h5 {
+    font-weight: 400;
+    font-size: .85vw;
+}
+
+.shipment h3 {
+    font-size: 1.35vw;
+}
+
+.shipment h4 {
+    font-size: 1.15vw;
+}
+
+.products {
+    border-bottom: 1px solid grey;
+    width: 40%;
+}
+
+.product {
+    /* max-width: 40%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.price {
+    border: 1px solid lightslategray;
+    width: 60%;
+    height: 33%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.total {
+    width: 40%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.input h3 {
+    font-size: 1.5vw;
+}
+
+.input input {
+    width: 38%;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    font-size: 1.3vw;
+    padding: 1%;
+}
+
+.input button {
+    padding: 1.5%;
+    width: 18%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    border: #ffba00;
+    background-color: #ffba00;
+    font-size: 1.5vw;
+}
+
+footer {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img {
+    width: 12%;
+}
+
+footer h3 {
+    font-size: 1.2vw;
+}
+
+footer h4 {
+    font-size: 1vw;
+    font-weight: 400;
+}

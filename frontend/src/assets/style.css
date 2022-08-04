@@ -3,12 +3,9 @@
     padding: 0;
     font-family: 'Poppins';
 }
-
-
 /***************************
 ****Header
 ****************************/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -19,44 +16,35 @@ header {
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
     background-color: #fff;
 }
-
 header .logo {
     width: 70%;
     padding: 5px 20px;
 }
-
 header .logo img {
     width: 6%;
 }
-
 header nav {
     display: flex;
     justify-content: space-around;
     width: 10%;
 }
-
 .text {
     position: absolute;
     top: 30%;
     left: 10%;
 }
-
 .text p {
     font-family: poppins;
     font-size: 80px;
     font-weight: 500;
     color: #fff;
 }
-
 hr {
     border: 2px solid black;
 }
-
-
 /***************************
 ****Media Screen
 ****************************/
-
 @media screen and (max-width: 500px) {
     header .logo {
         width: 50%;
@@ -74,7 +62,6 @@ hr {
         top: 15%;
     }
 }
-
 @media screen and (max-width: 750px) and (min-width: 501px) {
     header .logo img {
         width: 15%;
@@ -93,7 +80,6 @@ hr {
         font-size: 30px;
     }
 }
-
 @media screen and (max-width: 1200px) and (min-width: 751px) {
     header .logo img {
         width: 15%;
@@ -112,16 +98,12 @@ hr {
         font-size: 30px;
     }
 }
-
-
 /***************************
 ****Home
 ****************************/
-
 .main-image img {
     width: 100%;
 }
-
 .heading h2 {
     padding: 10px 50px;
 }
@@ -136,23 +118,19 @@ hr {
     width: 100%;
     justify-content: space-around;
 }
-
 .item-container .item-grid .item-background {
     background-color: rgb(235, 235, 235, 70%);
     width: 300px;
     text-align: center;
 }
-
 .item {
     width: 300px;
 }
-
 .item-container .item-grid .item-background .item-image img {
     width: 200px;
     height: 200px;
     padding: 30px 30px;
 }
-
 .item-container .item-grid .item-bottom {
     margin: 20px 0px;
     display: flex;
@@ -160,14 +138,12 @@ hr {
     align-items: center;
     width: 100%;
 }
-
 .item-container .item-grid .item-bottom button {
     background-color: rgb(0, 92, 153);
     color: #fff;
     padding: 5px 5px;
     border: 0;
 }
-
 .item-container .item-grid .item-bottom .added-cart {
     background-color: rgb(0, 92, 153);
     color: #fff;
@@ -175,37 +151,31 @@ hr {
     border: 0;
     border-radius: 5px;
 }
-
 #minus {
     padding: 0px 3px;
 }
-
 #plus {
     padding: 0px 3px;
 }
-
-
 /***************************
 ****Media Screen
 ****************************/
-
 @media screen and (max-width: 500px) {
     .item-container {
         margin: 10px 30px;
     }
+
     .item-container .item-grid .item .item-price h5,
     p,
     button {
         font-size: 8px;
     }
 }
-
 @media screen and (max-width: 1200px) and (min-width: 751px) {
     .item-container {
         margin: 10px 30px;
     }
 }
-
 @media screen and (max-width: 750px) and (min-width: 501px) {
     /* .item-container .item-grid .item .item-background {
         width: 200px;
@@ -224,21 +194,18 @@ hr {
         width: 65%;
     }
 }
-
 @media screen and (max-width: 280px) {
     .item-container {
         margin: 20px 20px;
     }
+
     .item-container .item-grid .item-bottom .added-cart {
         font-size: 8px;
     }
 }
-
-
 /******************************
 *******Footer
 *******************************/
-
 .foot {
     display: flex;
     justify-content: flex-end;
@@ -248,7 +215,6 @@ hr {
     padding: 10px 0px;
     gap: 30px;
 }
-
 .foot button {
     background-color: #ffba00;
     padding: 10px 20px;
@@ -257,35 +223,27 @@ hr {
     border-radius: 20px;
     color: black;
 }
-
 .refresh {
     text-align: center;
     color: #808080;
 }
-
 .refresh img {
     width: 10%;
 }
-
 .refresh span {
     font-weight: 400;
     color: #000;
 }
-
 .copyright {
     border-top: 1px solid #808080;
     text-align: center;
 }
-
 .copyright p {
     padding: 10px 0px;
 }
-
-
 /******************************
 *******Media screen
 *******************************/
-
 @media screen and (max-width: 450px) {
     .refresh p {
         font-size: 10px;
@@ -301,32 +259,25 @@ hr {
         margin-right: 10px;
     }
 }
-
 @media screen and (max-width: 500px) {
     .foot {
         margin: 30px 50px 30px 40px;
     }
 }
-
 @media screen and (min-width: 501px) and (max-width: 750px) {
     .foot {
         margin: 30px 90px 30px 40px;
     }
 }
-
-
 /******************************
 *******Cart
 *******************************/
-
 .heading {
     margin: 100px 70px;
 }
-
 .images {
     margin: 100px 70px;
 }
-
 .images ul li {
     display: flex;
     justify-content: space-between;
@@ -334,21 +285,18 @@ hr {
     list-style: none;
     padding: 10px 0px;
 }
-
 .circle {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border: 1px solid #000;
 }
-
 .circle img {
     width: 62%;
     display: block;
     margin: auto;
     padding: 12% 0 0 0;
 }
-
 button.number {
     padding: 5px 10px;
     background-color: #fff;
@@ -356,12 +304,9 @@ button.number {
     border-radius: 10px;
     letter-spacing: 5px;
 }
-
-
 /******************************
 *******Media Screen
 *******************************/
-
 @media screen and (max-width: 500px) {
     .images {
         margin: 10px 10px;
@@ -380,12 +325,9 @@ button.number {
         margin: 20px 40px;
     }
 }
-
-
 /******************************
 *******Check OUT
 *******************************/
-
 .box {
     width: 100%;
     height: 250px;
@@ -393,63 +335,51 @@ button.number {
     font-size: 40px;
     background-color: #ffba00;
 }
-
 .box p {
     padding: 100px 0px;
     color: black;
     font-weight: 500;
 }
-
 .details {
     margin: 50px 150px;
 }
-
 .box2 {
     margin: 50px 0px;
 }
-
 .box2 table {
     width: 55%;
     border-spacing: 10px;
 }
-
 .td-item {
     width: 60%;
 }
-
 .td-price {
     border: 1px solid #808080;
     width: 5%;
     padding: 5px 15px;
     border-radius: 15px;
 }
-
 #total-price,
 #item-count,
 #subtotal {
     border-top: 1px solid #000;
     padding: 10px 0px;
 }
-
 .dispatch {
     width: 100%;
 }
-
 .dispatch .form {
     width: 60%;
 }
-
 .dispatch .form label {
     font-weight: bolder;
 }
-
 .dispatch .form input {
     width: 70%;
     padding: 10px 20px;
     border: 1px solid #808080;
     border-radius: 25px;
 }
-
 .dispatch .form button {
     padding: 10px 70px;
     color: #fff;
@@ -458,17 +388,14 @@ button.number {
     border-radius: 25px;
     margin-bottom: 100px;
 }
-
 .message {
     text-align: center;
     margin: 50px 0px;
 }
-
 .backhome {
     justify-content: center;
     display: flex;
 }
-
 .backhome button {
     padding: 10px 70px;
     color: #fff;
@@ -477,12 +404,9 @@ button.number {
     border-radius: 25px;
     margin-bottom: 100px;
 }
-
-
 /******************************
 *******Media Screen
 *******************************/
-
 @media screen and (max-width: 500px) {
     .box {
         height: 150px;
@@ -501,7 +425,6 @@ button.number {
         width: 100%;
     }
 }
-
 @media screen and (min-width: 501px) and (max-width: 750px) {
     .box {
         height: 150px;
@@ -520,7 +443,6 @@ button.number {
         width: 100%;
     }
 }
-
 @media screen and (min-width: 751px) and (max-width: 1200px) {
     .box {
         height: 150px;
@@ -539,12 +461,9 @@ button.number {
         width: 100%;
     }
 }
-
-
 /******************************
 *******Sign In
 *******************************/
-
 .gradient {
     width: 100%;
     height: 100%;
@@ -552,7 +471,6 @@ button.number {
     position: fixed;
     top: 0;
 }
-
 .popup {
     position: fixed;
     top: 10%;
@@ -560,33 +478,28 @@ button.number {
     width: 28%;
     background-color: #fff;
 }
-
 .popup .popup-inner {
     margin: 5px 0px;
 }
-
 .popup .popup-inner img {
     position: relative;
     padding: 10px 10px;
     width: 20px;
     left: 90%;
+    
 }
-
 .popup .popup-preview {
     margin: 10px 30px;
 }
-
 .popup .popup-preview .input .heading-sign-in {
     text-align: center;
     margin-bottom: 25px;
     line-height: 30px;
 }
-
 .popup .popup-preview .input .input-feilds {
     width: 90%;
     margin: 0 auto;
 }
-
 .popup .popup-preview .input .input-feilds input {
     width: 85%;
     padding: 15px 20px;
@@ -594,7 +507,6 @@ button.number {
     border: 1px solid #ccc;
     margin-bottom: 10px;
 }
-
 .popup .popup-preview .input .input-feilds button {
     width: 100%;
     margin: 20px 0px;
@@ -604,7 +516,6 @@ button.number {
     background-color: #ffba00;
     color: black;
 }
-
 .popup .popup-preview .input .input-feilds .bottom {
     margin: 30px 20px;
     text-align: center;
@@ -614,6 +525,7 @@ button.number {
     gap: 20px;
     width: 80%;
 }
+
 
 .popup .popup-preview .input .input-feilds .sign-up-bottom {
     text-align: center;
@@ -628,28 +540,25 @@ button.number {
     width: 100%;
     display: flex;
     text-align: center;
+   
 }
-
 #terms {
     width: 10%;
     margin-top: 11%;
 }
-
 .checkbox label {
     font-size: 1vw;
     margin-top: 10%;
 }
-
 .bottom a {
     color: #000;
     text-decoration: none;
 }
-
 .bottom u {
     text-decoration: none;
 }
-
 @media screen and (max-width: 500px) {
+   
     /* .popup .popup-inner {
         top: 5%;
         left: 12vw;
@@ -682,8 +591,8 @@ button.number {
         font-size: 10px;
     }
 }
-
 @media screen and (min-width: 501px) and (max-width: 750px) {
+   
     /* .popup .popup-inner {
         top: 5%;
         left: 12vw;
@@ -713,8 +622,8 @@ button.number {
         font-size: 10px;
     }
 }
-
 @media screen and (min-width: 751px) and (max-width: 1200px) {
+   
     /* .popup .popup-inner {
         top: 5%;
         left: 12vw;

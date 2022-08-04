@@ -3,7 +3,7 @@ import Item from '../components/Common/Item';
 import { fetchItems } from '../reducks/items/operations';
 import { getItems } from '../reducks/items/selectors';
 import { useDispatch, useSelector } from 'react-redux';
-import MainImage from '../assets/img/web-banner.png';
+import MainImage from '../assets/images/web-banner.png';
 import { fetchCarts } from '../reducks/carts/operations';
 
 const Home = () => {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { signUp } from '../reducks/users/operations';
 import CrossX from '../assets/img/cross.png';
-import Home from './Home';
+import Home from '../containers/Home';
 import { push } from 'connected-react-router';
 
 const SignUp = () => {

@@ -26,7 +26,8 @@ function App() {
     return (
         <>
             <Header />
-            <Router /> {showFooter && <Footer price={subtotal} />}{' '}
+            <Router />
+            {showFooter && <Footer price={subtotal} />}
         </>
     );
 }

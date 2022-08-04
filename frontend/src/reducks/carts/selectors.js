@@ -5,6 +5,6 @@ const cartsSelector = (state) => state.carts;
 export const getCarts = createSelector([cartsSelector], (state) => state.list);
 
 export const getSubtotal = createSelector(
-    [cartsSelector],
-    (state) => state.subtotal
+  [cartsSelector],
+  (state) => state.subtotal
 );

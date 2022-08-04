@@ -9,7 +9,7 @@ var baseURL;
 //   baseURL = process.env.REACT_APP_API_BASE_URL;
 // } else
 
-baseURL = 'http://127.0.0.1:8000/';
+baseURL = 'https://backend-accessories.herokuapp.com/';
 
 const api = axios.create({
     baseURL: baseURL,
@@ -36,7 +36,7 @@ export default class API {
     // USERS
     /////////////////////////////
 
-    signUp = async (user_name, email, password) => {
+    signUp = async(user_name, email, password) => {
         const savedPost = await api
             .post('/users/signup/', {
                 user_name: user_name,
@@ -52,7 +52,7 @@ export default class API {
         return savedPost;
     };
 
-    signIn = async (email, password) => {
+    signIn = async(email, password) => {
         const savedPost = await api
             .post('/users/signin/', {
                 email: email,
@@ -67,7 +67,7 @@ export default class API {
         return savedPost;
     };
 
-    getUsers = async () => {
+    getUsers = async() => {
         const posts = await api
             .get('/users/')
             .then(response => {
@@ -83,7 +83,7 @@ export default class API {
     // Items
     // ///////////////////////////////////////
 
-    getItems = async () => {
+    getItems = async() => {
         let url = '/items/';
         const items = await api
             .get(url)
@@ -100,7 +100,7 @@ export default class API {
     // Carts
     // //////////////////////////////////////
 
-    getCarts = async () => {
+    getCarts = async() => {
         const carts = await api
             .get('/carts/')
             .then(response => {
@@ -127,7 +127,7 @@ export default class API {
         return savedCart;
     };
 
-    updateCarts = async (cart_id, quantity) => {
+    updateCarts = async(cart_id, quantity) => {
         const savedCart = await api
             .put('/carts/update/' + cart_id + '/', {
                 quantity: quantity
@@ -157,7 +157,7 @@ export default class API {
     // Order/Checkout
     // ////////////////////////////////////////
 
-    orderAdd = async (params = {}) => {
+    orderAdd = async(params = {}) => {
         const order = await api
             .post('/orders/add/', params)
             .then(response => {
@@ -173,7 +173,7 @@ export default class API {
     // Reference Post
     //////////////////////////////////////////
 
-    getPosts = async () => {
+    getPosts = async() => {
         const posts = await api
             .get('/posts/')
             .then(response => {
@@ -185,7 +185,7 @@ export default class API {
         return posts;
     };
 
-    addPost = async (name, body, image) => {
+    addPost = async(name, body, image) => {
         const formData = new FormData();
         formData.append('name', name);
         formData.append('body', body);

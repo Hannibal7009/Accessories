@@ -1,6 +1,6 @@
 # Accessories-Website
 ```
-Accessries App, with a frontend built in React & Redux and a backend built in Django API.
+Accessories App, with a frontend built in React & Redux and a backend built in Django API.
 ```
 Check out [FRONTEND LIVE DEMO](https://frontend-accessories.herokuapp.com/) here!!
 Check out [API LIVE DEMO](https://backend-accessories.herokuapp.com/) here!!
